@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:allowBackup="false"
+        android:label="Anime: AnimePahe">
+        <meta-data android:name="tachiyomi.animeextension.class"
+            android:value="${tachiyomi.animeextension.class}" />
+        <meta-data android:name="tachiyomi.animeextension.name"
+            android:value="${tachiyomi.animeextension.name}" />
+        <meta-data android:name="tachiyomi.animeextension.nsfw"
+            android:value="0" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
